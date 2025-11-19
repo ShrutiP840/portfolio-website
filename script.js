@@ -1,4 +1,4 @@
-// MOBILE MENU TOGGLE
+// MOBILE MENU TOGGLE - three line menubar
 let menuBtn = document.getElementById("menu-btn");
 let navLinks = document.querySelector(".navlinks");
 
@@ -7,4 +7,4 @@ menuBtn.addEventListener("click", () => {
         navLinks.style.display === "flex" ? "none" : "flex";
 });
 
-// git
+
