@@ -24,7 +24,7 @@ a,.btn{
 }
 .container{
    width: 90%;
-   max-width: 1400px;
+   max-width: 1300px;
    margin: auto;
 }
 
@@ -82,6 +82,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     padding: 140px 50px;
+    margin-top: 50px;
 }
 
 .home-img {
@@ -116,7 +117,8 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 
@@ -173,7 +175,7 @@ h3{
 footer{
     padding: 25px;
     margin-top: 50px;
-    background: #101010;
+    background: rgb(212, 135, 243);
 }
 
 /*Animation*/
@@ -215,7 +217,23 @@ footer{
         margin-top: 30px;
         width: 250px;
     }
+    .edu{
+        flex-direction: column;
+    }
     .project-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-bottom: 10px;
 }
