@@ -259,3 +259,17 @@ input, textarea{
 #responseMsg{
     margin-top: 10px;
 }
+@media (max-width: 750px) {
+    .contactmehead{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 750px) {
+    .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+}
