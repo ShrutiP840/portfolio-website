@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+       <title>Document</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 20px; margin-bottom: 30px;"> 
+            <a href="index.html">
+            <img src="/photos/icons/backtohome2.jpg" alt="BackToHome" style="width: 40px; height: 40px; border-radius: 100%;">
+            </a>
+             <h2 style=" text-align: center;">Please Fill The Details Below to Contact Me...</h2>
+        </div>
+          
+           <form id="form">
+            <div>
+                <label>Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div>
+                <label>Message</label>
+                <textarea id="message" placeholder="Enter your message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <p id="responseMsg"></p>
+
+    </div>
+
+    <script src="contact.js">
+    </script>
+
+</body>
+</html>

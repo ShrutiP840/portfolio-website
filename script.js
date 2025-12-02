@@ -7,7 +7,7 @@ menuBtn.addEventListener("click", () => {
         navLinks.style.display === "flex" ? "none" : "flex";
 });
 
-/*document.querySelectorAll(".navlinks a").forEach(link => {
+document.querySelectorAll(".navlinks a").forEach(link => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
     const target = document.querySelector(this.getAttribute("href"));
@@ -21,7 +21,7 @@ menuBtn.addEventListener("click", () => {
     });
   });
 });
-*/
+
 
 
 
