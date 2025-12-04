@@ -4,7 +4,8 @@ document.getElementById("form").addEventListener("submit", function(e) {
     let name = document.getElementById("name").value.trim();
     let email = document.getElementById("email").value.trim();
     let message = document.getElementById("message").value.trim();
-    let response = document.getElementById("responseMsg");
+    let response = document.getElementById("response");
+    let thisform = document.getElementById("form");
 
    /* if (name === "" || email === "" || message === "") {
         response.style.color = "red";
@@ -15,8 +16,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
         if(!this.checkValidity()){
             return;
         }
-
-    response.style.color = "green";
+    thisform.style.display = "none" ;
     response.textContent = "Form submitted successfully!";
     alert("Form submitted successfully!");
 
